@@ -1,0 +1,492 @@
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+    box-sizing: border-box;
+}
+
+/* flex布局 */
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+/* .item {
+    order: <integer>; 作用于style:"order:1;"
+  } */
+.flex-1 {
+    flex: 1;
+}
+
+/* 文本 */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-xs {
+    font-size: 20rpx;
+}
+
+.text-sm {
+    font-size: 24rpx;
+}
+
+.text-df {
+    font-size: 28rpx;
+}
+
+.text-lg {
+    font-size: 32rpx;
+}
+
+.text-xl {
+    font-size: 36rpx;
+}
+
+.text-xxl {
+    font-size: 44rpx;
+}
+
+.text-sl {
+    font-size: 80rpx;
+}
+
+.text-xsl {
+    font-size: 120rpx;
+}
+
+/*   内外边距  */
+
+.margin-0 {
+    margin: 0;
+}
+
+.margin-xs {
+    margin: 10rpx;
+}
+
+.margin-sm {
+    margin: 20rpx;
+}
+
+.margin {
+    margin: 30rpx;
+}
+
+.margin-lg {
+    margin: 40rpx;
+}
+
+.margin-xl {
+    margin: 50rpx;
+}
+
+.margin-top-xs {
+    margin-top: 10rpx;
+}
+
+.margin-top-sm {
+    margin-top: 20rpx;
+}
+
+.margin-top {
+    margin-top: 30rpx;
+}
+
+.margin-top-lg {
+    margin-top: 40rpx;
+}
+
+.margin-top-xl {
+    margin-top: 50rpx;
+}
+
+.margin-right-xs {
+    margin-right: 10rpx;
+}
+
+.margin-right-sm {
+    margin-right: 20rpx;
+}
+
+.margin-right {
+    margin-right: 30rpx;
+}
+
+.margin-right-lg {
+    margin-right: 40rpx;
+}
+
+.margin-right-xl {
+    margin-right: 50rpx;
+}
+
+.margin-bottom-xs {
+    margin-bottom: 10rpx;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 20rpx;
+}
+
+.margin-bottom {
+    margin-bottom: 30rpx;
+}
+
+.margin-bottom-lg {
+    margin-bottom: 40rpx;
+}
+
+.margin-bottom-xl {
+    margin-bottom: 50rpx;
+}
+
+.margin-left-xs {
+    margin-left: 10rpx;
+}
+
+.margin-left-sm {
+    margin-left: 20rpx;
+}
+
+.margin-left {
+    margin-left: 30rpx;
+}
+
+.margin-left-lg {
+    margin-left: 40rpx;
+}
+
+.margin-left-xl {
+    margin-left: 50rpx;
+}
+
+.margin-lr-xs {
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+}
+
+.margin-lr-sm {
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+
+.margin-lr {
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+
+.margin-lr-lg {
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+}
+
+.margin-lr-xl {
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+}
+
+.margin-tb-xs {
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+
+.margin-tb-sm {
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.margin-tb {
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+
+.margin-tb-lg {
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+}
+
+.margin-tb-xl {
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.padding-xs {
+    padding: 10rpx;
+}
+
+.padding-sm {
+    padding: 20rpx;
+}
+
+.padding {
+    padding: 30rpx;
+}
+
+.padding-lg {
+    padding: 40rpx;
+}
+
+.padding-xl {
+    padding: 50rpx;
+}
+
+.padding-top-xs {
+    padding-top: 10rpx;
+}
+
+.padding-top-sm {
+    padding-top: 20rpx;
+}
+
+.padding-top {
+    padding-top: 30rpx;
+}
+
+.padding-top-lg {
+    padding-top: 40rpx;
+}
+
+.padding-top-xl {
+    padding-top: 50rpx;
+}
+
+.padding-right-xs {
+    padding-right: 10rpx;
+}
+
+.padding-right-sm {
+    padding-right: 20rpx;
+}
+
+.padding-right {
+    padding-right: 30rpx;
+}
+
+.padding-right-lg {
+    padding-right: 40rpx;
+}
+
+.padding-right-xl {
+    padding-right: 50rpx;
+}
+
+.padding-bottom-xs {
+    padding-bottom: 10rpx;
+}
+
+.padding-bottom-sm {
+    padding-bottom: 20rpx;
+}
+
+.padding-bottom {
+    padding-bottom: 30rpx;
+}
+
+.padding-bottom-lg {
+    padding-bottom: 40rpx;
+}
+
+.padding-bottom-xl {
+    padding-bottom: 50rpx;
+}
+
+.padding-left-xs {
+    padding-left: 10rpx;
+}
+
+.padding-left-sm {
+    padding-left: 20rpx;
+}
+
+.padding-left {
+    padding-left: 30rpx;
+}
+
+.padding-left-lg {
+    padding-left: 40rpx;
+}
+
+.padding-left-xl {
+    padding-left: 50rpx;
+}
+
+.padding-lr-xs {
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+
+.padding-lr-sm {
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+}
+
+.padding-lr {
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+}
+
+.padding-lr-lg {
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+}
+
+.padding-lr-xl {
+    padding-left: 50rpx;
+    padding-right: 50rpx;
+}
+
+.padding-tb-xs {
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+}
+
+.padding-tb-sm {
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+}
+
+.padding-tb {
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+
+.padding-tb-lg {
+    padding-top: 40rpx;
+    padding-bottom: 40rpx;
+}
+
+.padding-tb-xl {
+    padding-top: 50rpx;
+    padding-bottom: 50rpx;
+}
+
+/* 浮动 */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* 清除浮动 */
+.clear-float {
+    clear: both;
+}
+
+/* 溢出隐藏 */
+.overflow-hidden {
+    width: 200rpx;
+    /*限制宽度才可生效*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* display:-webkit-box;作为弹性伸缩盒子模型显示。 */
+    /* -webkit-box-orient:vertical; 设置伸缩盒子的子元素排列方式--从上到下垂直排列 */
+    /* -webkit-line-clamp:2; 显示的行 */
+}
+.child{
+    width: calc(100%/4); /* 子盒子是父盒子的四分之一 */
+}
+/* 定位 */
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+/* 圆 */
+.round{
+    border-radius: 100%;
+}
+/* 圆角 */
+.border-radius{
+    border-radius: 20rpx;
+}
+/* 元素转换 */
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
