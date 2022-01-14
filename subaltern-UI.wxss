@@ -454,13 +454,11 @@ image {
 /* 溢出隐藏 */
 .overflow-hidden {
     width: 200rpx;
-    /*限制宽度才可生效*/
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    /* display:-webkit-box;作为弹性伸缩盒子模型显示。 */
-    /* -webkit-box-orient:vertical; 设置伸缩盒子的子元素排列方式--从上到下垂直排列 */
-    /* -webkit-line-clamp:2; 显示的行 */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 .child{
     width: calc(100%/4); /* 子盒子是父盒子的四分之一 */
